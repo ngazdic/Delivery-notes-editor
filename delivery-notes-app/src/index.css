@@ -1,0 +1,78 @@
+/*Navbar*/
+
+/*Main section */
+
+body {
+	font-size: 16px;
+}
+
+html {
+	font-size: 1.5rem;
+}
+
+.main-section img {
+	width: 200px;
+	height: 200px;
+}
+
+/* index.css */
+.book-class:nth-of-type(2) {
+	display: none;
+}
+
+.display {
+	display: block;
+}
+
+.no-display {
+	display: none;
+}
+
+.dodaj-knjigu-dugme {
+	width: 10%;
+}
+
+#bibilotekaName {
+	width: 600px;
+	font-size: 14px;
+	padding: 5px 0;
+}
+
+#bibilotekaAddress {
+	width: 300px;
+	font-size: 14px;
+	padding: 5px 0;
+}
+
+/* Styles for the PDF content */
+.pdf-content {
+	font-family: Arial, sans-serif;
+	font-size: 1.2vw; /* Adjusts based on viewport width */
+	letter-spacing: 0.5px; /* Adds space between letters */
+	line-height: 1.5; /* Increases space between lines */
+	padding: 10px 15px; /* Adds some padding to prevent edge overflow */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+	.pdf-content {
+		font-size: 3vw; /* Larger font for smaller screens */
+		letter-spacing: 1px; /* More space between letters */
+	}
+}
+
+/* Additional styling for better readability */
+.pdf-content h1,
+.pdf-content h2,
+.pdf-content h3 {
+	font-size: 1.8vw; /* Headings responsive to viewport width */
+	margin: 10px 0;
+}
+
+.pdf-content p {
+	margin: 10px 0;
+}
+
+.bez-pecata-i-potpisa-div {
+	margin-top: 350px;
+}
